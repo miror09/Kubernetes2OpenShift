@@ -4,11 +4,11 @@ import requests
 
 
 app = Flask(__name__)
-BOOKS = ['1984', 'foo', 'bar', "ahoj a", "miror"]
+BOOKS = ['1984', 'foo', 'bar', "ahoj a", "miror", "libor"]
 
 @app.route("/")
 def hello():
-    response = "<H1>Books PrgCont LIBOR:</H1><BR>"
+    response = "<H1>Books PrgCont MIROR:</H1><BR>"
     for book in BOOKS:
         try:
             review = requests.get(f'http://bookreview:8080/v1/review/{book}')
