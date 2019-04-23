@@ -1,3 +1,14 @@
+userxx/openshift
+
+https://github.com/dbecvarik/Kubernetes20penShift
+
+https://master.bratislava-d5de.openshiftworkshop.com/console/catalog/
+
+user: user46
+pwd: openshift
+
+
+
 Objectives and pre-requisites
 =============================
 
